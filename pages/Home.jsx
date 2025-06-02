@@ -1,9 +1,12 @@
 import React from 'react';
 import Layout from '../components/Layout'; // Layout'un yolu sana göre değişebilir
+import HeroSection from "../components/HeroSection";
 
 function Home() {
   return (
     <Layout>
+      <HeroSection />
+
       <div className="container mx-auto p-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           <div className="bg-blue-500 text-white p-6 rounded shadow">
