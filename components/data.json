@@ -1,0 +1,18 @@
+
+[
+  {
+    "image": "./images/vns3.jpeg",
+    "category": "Technology",
+    "title": "Push yourself, because no one else is going to do it for you"
+  },
+  {
+    "image": "./images/vns3.jpeg",
+    "category": "Hiking",
+    "title": "Great things never come from comfort zones"
+  },
+  {
+    "image": "./images/vns3.jpeg",
+    "category": "Technology",
+    "title": "Success doesn’t just find you. You have to go out and get it"
+  }
+]

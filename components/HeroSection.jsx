@@ -2,19 +2,21 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-     <section className="relative bg-gray-100 overflow-hidden">
+     <>
+<section className="relative bg-gray-100 overflow-hidden" >
       {/* Arka Plan JJ */}
-      <div className="absolute text-[20rem] font-extrabold text-gray-300 opacity-20 select-none -top-10 -left-0">
-        Deneme
+      <div className="absolute text-[20rem] font-extrabold text-gray-300 opacity-20 select-none -top-10 -right-0">
+        venüs
       </div>
 
       {/* İçerik */}
-      <div className="container mx-auto px-4 py-20 grid grid-cols-1 md:grid-cols-2 items-center">
+      <div className="container mx-auto px-4 py-40 grid grid-cols-1 md:grid-cols-2 items-center">
         <div className="flex justify-center mb-8 md:mb-0">
           <img
-            src="/images/jessy.jpg"
-            alt="Jessy Jane"
+            src="./images/transparanvns.png"
+            alt="vns"
             className="rounded-lg max-w-xs md:max-w-sm"
+    
           />
         </div>
 
@@ -45,7 +47,7 @@ const HeroSection = () => {
           />
          
         </svg> */}
-  <svg
+  {/* <svg
   viewBox="0 0 1440 320"
   className="w-full h-40"
   preserveAspectRatio="none"
@@ -54,9 +56,29 @@ const HeroSection = () => {
     d="M0,0 L0,100 Q720,0 1440,100 L1440,0 Z"
     className="fill-white"
   />
+</svg> */}
+<svg viewBox="0 0 1440 320" className="w-full h-40" preserveAspectRatio="none">
+  <path
+    d="M0,0 L0,100 Q720,-100 1440,100 L1440,0 Z"
+    className="fill-white"
+  />
 </svg>
+
       </div>
     </section>
+ {/* CSS kısmı */}
+      <style>
+        {`
+       section.relative.bg-gray-100.overflow-hidden {
+          height: 60vh !important;
+        }
+          .vnsimg{
+          width:25vw;
+          height:auto;
+          }
+        `}
+      </style>
+    </>
   );
 };
 
